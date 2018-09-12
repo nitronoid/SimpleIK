@@ -1,6 +1,6 @@
-MAYA_LOCATION := /usr/autodesk/maya
+MAYA_LOCATION ?= /usr/autodesk/maya
 MAYA_PLUGIN_PATH ?= $(HOME)/maya/plugins/plug-ins
-NODE_NAME_PREFIX := sik_
+NODE_NAME_PREFIX ?= sik_
 
 MAKEFLAGS += -j
 CXX ?= g++
